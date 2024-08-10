@@ -19,7 +19,7 @@ In general left to right goes back in the mouth, like in the IPA chart.
 
 The only symbols on the official IPA chart that I haven't included are:
 - ˑ "half long"
-- ‿ "linking" (like with liason)
+- ‿ "linking" (like with liason), but it can be emulated by using the affricate symbol.
 - the diacritical symbols for tones, like ◌̋, ◌̀, ◌᷉
 - The Wikipedia article for the IPA chart (https://en.wikipedia.org/wiki/International_Phonetic_Alphabet_chart) includes a few more symbols for rare laterals, but these don't have unicode support everywhere. There are also a bunch more diacritics for things like dental and schwa releases, or unrounded labialization that are in somewhat common use, but unfortunately I ran out of space.
 
