@@ -24,6 +24,7 @@ The only symbols on the official IPA chart that I haven't included are:
 - ‿ "linking" (like with liason), but it can be emulated by using the affricate symbol.
 - the diacritical symbols for tones, like ◌̋, ◌̀, ◌᷉
 - The Wikipedia article for the IPA chart (https://en.wikipedia.org/wiki/International_Phonetic_Alphabet_chart) includes a few more symbols for rare laterals, but these don't have unicode support everywhere. There are also a bunch more diacritics for things like dental and schwa releases, or unrounded labialization that are in somewhat common use, but unfortunately I ran out of space.
+- according to the chart, if a chacacter has a descender, diacritics should be placed above it. This is probably possible with ahk, but I haven't looked into it.
 
 ## Installation
 Because this layout overrides so many keys, it uses a AutoHotkey script. It's very easy to install, just follow this link: https://www.autohotkey.com/. To activate the script, just double click IPAkeyboard.ahk. To disable it, press Ctrl+Shift+any number key. This is because for Windows, if you have multiple keyboards installed, you can switch between them with this combination. If you want to be able to switch in to the IPA keyboard, I have also written an ahk script that just looks for Ctrl+Shift+number, where you can set the number very easily in the file. If you put default.ahk in your windows startup folder (C:\Users\<user>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs) it will run automatically on startup.
