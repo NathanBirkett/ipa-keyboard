@@ -98,14 +98,22 @@ $.::Send "{"
 $+.::Send "}"
 $/::Send "|"
 $+/::Send "‖"
-AppsKey::Send "‿"
-+AppsKey::Send "ˑ"
+AppsKey::
+^CtrlBreak::
+{
+Send "‿"
+}
++AppsKey::
++^CtrlBreak::
+{
+Send "ˑ"
+}
 PrintScreen::Send "ˈ"
 +PrintScreen::Send "ˌ"
 ScrollLock::Send "ː"
 +ScrollLock::Send "̆"
-Pause::Send "↗︎"
-+Pause::Send "↘︎"
+Pause::Send "↗"
++Pause::Send "↘"
 Insert::Send "̹"
 +Insert::Send "̜"
 Home::Send "̟"
